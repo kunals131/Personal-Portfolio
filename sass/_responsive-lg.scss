@@ -1,5 +1,11 @@
 @include media-lg {
- 
+
+    #phone__logo {
+        display: none;
+    }
+    #dekstop__logo {
+        display: block;
+    }
     .img-container {
         height: 100%;
         max-width: 100%;

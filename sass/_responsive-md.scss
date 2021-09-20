@@ -1,4 +1,12 @@
 @include media-md {
+    
+    #phone__logo {
+        display: block;
+    }
+    #dekstop__logo {
+        display: none;
+    }
+
     .logo {
         &__name {
             font-size: 1.4rem;

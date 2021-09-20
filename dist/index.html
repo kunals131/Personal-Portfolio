@@ -13,23 +13,29 @@
 </head>
 
 <body>
+
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+
     <!-- <h1 class="inactive">kunal</h1> -->
     <header>
         <div class="container-head">
             <div class="logo">
-                <h1 class="logo__name"><span class="logo__fname">ku</span><span class="logo__lname">nal</span></h1>
+                <h1 class="logo__name" id="phone__logo"><span class="logo__fname">ku</span><span class="logo__lname">nal</span></h1>
+                <h1 class="logo__name" id="dekstop__logo"><span class="logo__fname">kunal</span><span class="logo__lname">sangtiani</span></h1>
                 <div class="logo__box"></div>
             </div>
 
             <nav class="nav">
                 <ul class="nav-menu">
-                    <li class="nav-menu__item">
-                        <a href="#home_section" class="nav-menu__link inactive" id="about">About</a>
+                    <li class="nav-menu__item" id="about_">
+                        <a href="#home_section" class="nav-menu__link" id="about">About</a>
                     </li>
-                    <li class="nav-menu__item">
+                    <li class="nav-menu__item" id="work_">
                         <a href="#work_section" class="nav-menu__link" id="work">Work</a>
                     </li>
-                    <li class="nav-menu__item">
+                    <li class="nav-menu__item" id="more_">
                         <a href="#skills_section" class="nav-menu__link" id="more">More</a>
                     </li>
                 </ul>
@@ -57,7 +63,7 @@
                     </div>
                     <div class="home__down-icon">
                         <i class="material-icons ic1">clear_all</i>
-                        <h3 class="title ic2">Scroll down </h3>
+                        <a href="#work_section" class="title ic2">Scroll down </a>
                         <i class="material-icons ic3">arrow_downward</i>
                     </div>
                 </div>
@@ -170,7 +176,10 @@
         </section>
     </main>
 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
     <script src="js/app.js"></script>
+
 </body>
 
 </html>

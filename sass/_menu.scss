@@ -1,3 +1,10 @@
+#phone__logo {
+    display: block;
+}
+#dekstop__logo {
+    display: none;
+}
+
 .logo {
     cursor: pointer;
 
@@ -39,7 +46,7 @@
             font-size: 0.92rem;
             text-decoration: none;
             font-weight: 500;
-            transition: all 0.5s ease-in-out;
+            transition: all 0.3s ease-in-out;
             // @include trastion-ease($time : 0.5s);
             &:hover {
                 color: $active-color;
