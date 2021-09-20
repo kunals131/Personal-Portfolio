@@ -1,0 +1,99 @@
+@import 'config';
+@import 'resets';
+@import 'menu';
+@import 'config';
+@import 'home';
+@import 'animation';
+@import 'work';
+@import 'skills';
+@import 'contact';
+@import 'footer';
+@import 'responsive-md';
+@import 'responsive-lg';
+
+
+header {
+    width: 100vw;
+    height: auto;
+    background-color: transparent;
+    color: white;
+    padding: 1.2rem 0 ;
+    z-index: 2;
+    position: fixed;
+    transition: all 0.3s ease-in-out;
+}
+
+.container-head {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:0.3fr 3.2fr 0.2fr;
+    grid-gap: 1.7rem;
+}
+
+.active-color {
+    color: $active-color;
+    font-weight: 500;
+}
+
+.container-home {
+    width: 85%;
+    margin : auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2.7rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dark-bg {
+    background-color: $dark-background;
+}
+
+.container-work {
+    padding-top: 1rem;
+    width: 85%;
+    margin: auto;
+}
+
+.makeitbold {
+    font-weight: 700;
+}
+
+.img-container {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    // z-index: 2;
+    background: url('../img/300ppi/phone2.png') center center/cover;
+    
+}
+
+.container-skills {
+    padding : 1.5rem 2rem;
+    width: 85%;
+    margin: auto;
+    border-radius: 3%;
+    background: white;
+}
+
+.primary-color {color : $primary-color}
+
+.container-contact {
+    width: 85%;
+    margin : auto;
+
+}
+
+
+.secondary-color {color: $secondary-color;}
+
+.footer-container {
+    width: 85%;
+    margin: auto;
+    padding: 0.8rem;
+    
+}

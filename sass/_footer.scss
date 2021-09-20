@@ -1,0 +1,15 @@
+.footer {
+
+    margin-top: 1.5rem;
+    background: $dark-background;
+    &__text {
+        text-align: center;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+        a {
+            color: lightgrey;
+        }
+    }
+}

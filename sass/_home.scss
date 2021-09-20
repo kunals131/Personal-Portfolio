@@ -1,0 +1,92 @@
+.home {
+    height: 100vh;
+    padding-top: 17vh;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    // background: url('../img/300ppi/phone.png') center center/cover;
+
+    &__text {
+        color: white;
+        &__heading {
+            font-weight: 400;
+            font-size: 2.3rem;
+        }
+        &__sub {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: $inactive-color;
+        }
+        &__main {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            // word-spacing: 2px;
+        }
+    }
+    &__img {
+        height: 165px;
+        width: 165px;
+        border-radius: 50%;
+        box-shadow: 4px 4px 30px -3px rgb(135, 57, 250);
+
+        background-color: $secondary-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        &__i {
+            height: 160px;
+            width: 160px;
+            border-radius: 50%;
+            margin: auto;
+
+            background-color: white;
+            background: url('../img/mine.jfif') center center/cover;
+        }
+    }
+
+    &__down-icon {
+        
+        margin-top: 1rem;
+        // box-shadow: 1px 10px black;
+        display: flex;
+        justify-content: center;
+        .ic1 {
+            color: white;
+            font-size: 3rem;
+        }
+        .ic2 {
+            cursor: pointer;
+            color: white;
+            font-weight: 500;
+            padding-top: 0.7rem;
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 0.3rem;
+        }
+        .ic3 {
+            color: white;
+            font-size:1.1rem;
+            font-weight: 400;
+            // font-family: 'Montserrat', sans-serif;
+            padding-top: 0.9rem;
+
+        }
+    }
+}
+
+.home__down-icon{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.home__down-icon {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}

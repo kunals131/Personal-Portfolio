@@ -1,0 +1,27 @@
+.skills {
+    margin-top: 1.5rem;
+    &__heading {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        border-bottom: 1px solid lightgrey;
+        padding-bottom: 0.4rem;
+        color: $secondary-color;
+    }
+    &__list {
+        list-style-type: " ";
+        margin-top: 1rem;
+    }
+    &__item {
+        margin-bottom: 1.3rem;
+        &__heading {
+            font-weight: 600;
+            font-size: 0.94rem;
+        }
+        &__main {
+            font-size: 0.85rem;
+            color: $dark-background;
+        }
+    }
+
+}

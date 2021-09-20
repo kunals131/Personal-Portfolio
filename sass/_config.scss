@@ -1,0 +1,27 @@
+$primary-color : #f6f6f6;
+$inactive-color : rgb(119, 119, 121);
+$active-color : rgb(246, 246, 246);
+$secondary-color : rgb(135, 57, 250);
+$hover-color : rgb(173, 125, 247);
+$dark-background : #151418;
+$project_count : 3;
+
+@mixin trastion-ease {
+    transition: all 0.5s ease-in-out;
+}
+
+@mixin media-md {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+@mixin media-lg {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
+@mixin media-xl {
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+}

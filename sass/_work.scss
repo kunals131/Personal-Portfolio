@@ -1,0 +1,70 @@
+.work {
+    // background-color: $primary-color;
+    &__heading {
+        text-align: center;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    &__projects {
+        margin-top: 1.4rem;
+        display: grid;
+        grid-template-rows: (repeat,$project_count);
+        grid-gap: 1.2rem;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        height: 100%;
+        
+    }
+
+    &__project {
+        margin-bottom: 1rem;
+        display: grid;
+        grid-template-columns: 3;
+        // align-items: center;
+        // justify-content: center;
+        &__img {
+            width: 370px;
+            height: 210px;
+            margin: auto;
+            border-radius: 5%;
+            background-color: black;
+        }
+        &__text {
+            text-align: center;
+            margin-top: 0.5rem;
+            &__heading {
+                font-weight: 600;
+                font-size: 1.1rem;
+            }
+            &__main {
+                line-height: 1.1;
+                font-size: 0.9rem;
+                margin-top: 0.4rem;
+                font-family: 'Roboto';
+            }
+        }
+        &__buttons {
+            display: flex;
+            margin-top: 0.7rem;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        &__button {
+            background-color: $secondary-color;
+            padding: 0.3rem 0.5rem;
+            border-radius: 10%/20%;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.5s ease-in-out;
+            &:hover {
+                background-color: $hover-color;
+                color: black;
+            }
+        }
+        
+        
+    }
+}

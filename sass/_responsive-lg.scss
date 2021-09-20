@@ -1,0 +1,107 @@
+@include media-lg {
+ 
+    .img-container {
+        height: 100%;
+        max-width: 100%;
+        // z-index: 2;
+        background: url('../img/300ppi/dekstop2.png') center center/cover;
+    }
+    .container-head {
+        max-width: 65%;
+        padding : 0.4rem 0;
+    }
+    .logo {
+        &__name {
+            font-size: 1.3rem;
+        }
+        &__fname {
+            font-weight: 600;
+        }
+        &__box {
+        left: 23.7rem;
+        top: 1.7rem;
+        width: 35px;
+        height: 35px;
+        }
+    }
+    .nav {
+        .nav-menu {
+            margin-left: -3rem;
+            &__item {
+                padding: 0.3rem 0.5rem;
+            }
+            &__link {
+               font-size: 1.1rem;
+               font-weight: 400;
+            }
+        }
+    }
+    .button__settings {
+        background: $secondary-color;
+        width: 40px;
+        height: 40px;
+        &__icon {
+            font-size: 1.7rem;
+        }
+    }
+
+    //Home
+    .container-home {
+        max-width: 65%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2.7rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .home {
+        padding-top: 27vh;
+        &__text {
+            text-align: left;
+            &__heading {
+                font-size: 2.5rem;
+            }
+            &__sub {
+                font-size: 1.43rem;
+            }
+            &__main {
+                font-size: 0.9rem;
+                width: 90%;
+            }
+        }
+        &__img {
+            height: 190px;
+            width: 190px;
+            &__i {
+                height: 187px;
+                width: 187px;
+            }
+        }
+        &__down-icon {
+            justify-content: left;
+            margin-top: -8rem;
+            margin-left: -1rem;
+        }
+    }
+
+    //Work Section
+
+    .work {
+        margin-top: 1rem;
+        &__heading {
+           font-size: 1.6rem;
+        }
+        &__project {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            &__text {
+                text-align: left;
+            }
+            &__buttons {
+                
+            }
+
+        }
+    }
+
+}
