@@ -25,7 +25,7 @@
 .nav {
     .nav-menu {
         display: grid;
-        margin-left: -0.8rem;
+        // margin-left: rem;
         grid-template-columns: repeat(3,0.1fr);
         justify-content: center;
         align-items: center;
@@ -36,7 +36,7 @@
         &__link {
             padding: 0.4rem 0.3rem;
             color: $inactive-color;
-            font-size: 0.8rem;
+            font-size: 0.92rem;
             text-decoration: none;
             font-weight: 500;
             transition: all 0.5s ease-in-out;
@@ -45,6 +45,8 @@
                 color: $active-color;
                 font-weight: 600;
             }
+
+
         }
     }
     

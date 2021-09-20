@@ -13,6 +13,10 @@ body {
   background-color: #f6f6f6;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .logo {
   cursor: pointer;
 }
@@ -42,7 +46,6 @@ body {
 .nav .nav-menu {
   display: -ms-grid;
   display: grid;
-  margin-left: -0.8rem;
   -ms-grid-columns: (0.1fr)[3];
       grid-template-columns: repeat(3, 0.1fr);
   -webkit-box-pack: center;
@@ -61,7 +64,7 @@ body {
 .nav .nav-menu__link {
   padding: 0.4rem 0.3rem;
   color: #777779;
-  font-size: 0.8rem;
+  font-size: 0.92rem;
   text-decoration: none;
   font-weight: 500;
   -webkit-transition: all 0.5s ease-in-out;
@@ -562,7 +565,7 @@ header {
 }
 
 .container-head {
-  width: 85%;
+  width: 80%;
   margin: auto;
   display: -ms-grid;
   display: grid;
@@ -572,14 +575,14 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-grid-columns: 0.3fr 3.2fr 0.2fr;
-      grid-template-columns: 0.3fr 3.2fr 0.2fr;
-  grid-gap: 1.7rem;
+  -ms-grid-columns: 0.1fr 2fr 0.2fr;
+      grid-template-columns: 0.1fr 2fr 0.2fr;
+  grid-gap: 1.1rem;
 }
 
-.active-color {
-  color: #f6f6f6;
-  font-weight: 500;
+.active-link {
+  color: white;
+  font-weight: 600;
 }
 
 .container-home {
@@ -616,7 +619,9 @@ header {
   height: 100%;
   width: 100%;
   top: 0;
-  background: url("../img/300ppi/phone2.png") center center/cover;
+  background-image: url("../img/300ppi/phone2.png");
+  background-position: center center;
+  background-size: cover;
 }
 
 .container-skills {

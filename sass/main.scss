@@ -24,18 +24,18 @@ header {
 }
 
 .container-head {
-    width: 85%;
+    width: 80%;
     margin: auto;
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns:0.3fr 3.2fr 0.2fr;
-    grid-gap: 1.7rem;
+    grid-template-columns:0.1fr 2fr 0.2fr;
+    grid-gap: 1.1rem;
 }
 
-.active-color {
-    color: $active-color;
-    font-weight: 500;
+.active-link {
+    color: white;
+    font-weight: 600;
 }
 
 .container-home {
@@ -68,7 +68,10 @@ header {
     width: 100%;
     top: 0;
     // z-index: 2;
-    background: url('../img/300ppi/phone2.png') center center/cover;
+    background-image: url('../img/300ppi/phone2.png');
+    background-position: center center;
+    background-size: cover;
+    // background: url('../img/300ppi/phone2.png') center center/cover;
     
 }
 
@@ -97,3 +100,4 @@ header {
     padding: 0.8rem;
     
 }
+
