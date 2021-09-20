@@ -25,15 +25,6 @@ function makeitbold(selected) {
 
 }
 
-function autochange_navbar() {
-    const skills_section = document.querySelector('#skills_section')
-    const about_section = document.querySelector('#about_section')
-    const about_section = document.querySelector('#about_section')
-
-    document.addEventListener('scroll', ()=>{
-        if (window.scrollY>=skills_section.hei)
-    })
-}
 
 
 document.addEventListener('DOMContentLoaded', ()=>{
