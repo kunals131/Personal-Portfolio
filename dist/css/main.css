@@ -280,8 +280,8 @@ html {
 }
 
 .work__project__img {
-  width: 370px;
-  height: 210px;
+  width: 320px;
+  height: 175px;
   margin: auto;
   border-radius: 5%;
   background-color: black;
@@ -640,6 +640,13 @@ html {
     width: 67%;
     margin: 0.8rem 0;
   }
+  .work__project__img {
+    width: 370px;
+    height: 210px;
+    margin: auto;
+    border-radius: 5%;
+    background-color: black;
+  }
   .work__project__buttons {
     -webkit-box-pack: left;
         -ms-flex-pack: left;
@@ -860,7 +867,7 @@ header {
 
 .container-work {
   padding-top: 1.1rem;
-  width: 85%;
+  width: 75%;
   margin: auto;
 }
 
@@ -904,7 +911,7 @@ header {
 }
 
 .sidebar-container {
-  width: 85%;
+  width: 75%;
   margin: auto;
 }
 /*# sourceMappingURL=main.css.map */
