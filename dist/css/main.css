@@ -723,7 +723,7 @@ html {
   width: 50%;
   height: 100vh;
   position: fixed;
-  left: 18rem;
+  left: 14rem;
   z-index: 200;
   top: 0rem;
   -webkit-transform: translateX(2000px);
@@ -872,9 +872,7 @@ header {
   height: 100%;
   width: 100%;
   top: 0;
-  background-image: url("../img/300ppi/phone2.png");
-  background-position: center center;
-  background-size: cover;
+  background: url("./img/300ppi/phone2.png") center center/cover;
 }
 
 .container-skills {
