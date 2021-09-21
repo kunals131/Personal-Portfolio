@@ -98,10 +98,21 @@
            font-size: 1.6rem;
         }
         &__project {
+            margin-top: 1.2rem;
             display: grid;
-            grid-template-columns: 1.5fr 1fr;
+            grid-template-columns: 1fr 1fr;
             &__text {
                 text-align: left;
+            }
+            &__buttons {
+                justify-content: left;
+                margin-top: 1.3rem;
+            }
+            &__button:last-child {
+                margin-left: 1.3rem;
+            }
+            &__button {
+                padding: 0.5rem 0.7rem
             }
 
         }

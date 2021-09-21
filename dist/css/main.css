@@ -602,13 +602,26 @@ html {
     font-size: 1.6rem;
   }
   .work__project {
+    margin-top: 1.2rem;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1.5fr 1fr;
-        grid-template-columns: 1.5fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
   }
   .work__project__text {
     text-align: left;
+  }
+  .work__project__buttons {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin-top: 1.3rem;
+  }
+  .work__project__button:last-child {
+    margin-left: 1.3rem;
+  }
+  .work__project__button {
+    padding: 0.5rem 0.7rem;
   }
   .Link_to_all_projects {
     max-width: 50%;
@@ -729,7 +742,7 @@ header {
 }
 
 .container-work {
-  padding-top: 1.3rem;
+  padding-top: 1.1rem;
   width: 85%;
   margin: auto;
 }
