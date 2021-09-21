@@ -872,6 +872,7 @@ header {
   height: 100%;
   width: 100%;
   top: 0;
+  background-color: #151418;
   background: url("./img/300ppi/phone2.png") center center/cover;
 }
 
