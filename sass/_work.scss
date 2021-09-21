@@ -36,13 +36,17 @@
             margin-top: 0.5rem;
             &__heading {
                 font-weight: 600;
-                font-size: 1.1rem;
+                font-size: 1rem;
             }
             &__main {
+                width: 99%;
+                margin: auto;
+                color: grey;
                 line-height: 1.1;
-                font-size: 0.9rem;
+                text-align: center;
+                font-size: 0.8rem;
                 margin-top: 0.4rem;
-                font-family: 'Roboto';
+                font-family: 'Poppins', sans-serif;
             }
         }
         &__buttons {
@@ -99,3 +103,21 @@
         }
     }
 }
+
+#project3 {
+    .work__project__img {
+        background : url(../img/project3.jpg) center center/cover
+    }
+}
+#project1 {
+    .work__project__img {
+        background : url(../img/project1.jpg) center center/cover
+    }
+}
+
+#project2 {
+    .work__project__img {
+        background : url(../img/project2.jpg) center center/cover
+    }
+}
+

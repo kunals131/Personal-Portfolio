@@ -9,7 +9,7 @@
     <title>Kunal Sangtiani | Developer</title>
     <script src="https://kit.fontawesome.com/7279e62390.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
- 
+
 </head>
 
 <body>
@@ -18,171 +18,238 @@
         <div class="loader"></div>
     </div>
 
+
+
+    <div class="sidebar">
+        <div class="sidebar-container">
+            <h1 class="sidebar__heading">Settings</h1>
+            <h1 class="sidebar__sub">Select Theme</h1>
+            <div class="sidebar__items">
+                <div class="sidebar__item">
+                    <div class="sidebar__color selected" data-color="rgb(135, 57, 250)">
+                        <!-- <div class="inside_circle"></div> -->
+                    </div>
+                </div>
+                <div class="sidebar__item">
+                    <div class="sidebar__color" data-color="purple">
+                        <!-- <div class="inside_circle"></div> -->
+                    </div>
+                </div>
+                <div class="sidebar__item">
+                    <div class="sidebar__color" data-color="orange">
+                        <!-- <div class="inside_circle"></div> -->
+                    </div>
+                </div>
+                <div class="sidebar__item">
+                    <div class="sidebar__color" data-color="voilet">
+                        <!-- <div class="inside_circle"></div> -->
+                    </div>
+                </div>
+                <div class="sidebar__item">
+                    <div class="sidebar__color" data-color="teal">
+                        <!-- <div class="inside_circle"></div> -->
+                    </div>
+                </div>
+                <div class="sidebar__item">
+                    <div class="sidebar__color" data-color="blue">
+                        <!-- <div class="inside_circle"></div> -->
+                    </div>
+                </div>
+                <div class="sidebar__item">
+                    <div class="sidebar__color" data-color="pink">
+                        <!-- <div class="inside_circle"></div> -->
+                    </div>
+                </div>
+                <div class="sidebar__item">
+                    <div class="sidebar__color" data-color="lightbrown">
+                        <!-- <div class="inside_circle"></div> -->
+                    </div>
+                </div>
+                <div class="sidebar__item">
+                    <div class="sidebar__color" data-color="lightblue">
+                        <!-- <div class="inside_circle"></div> -->
+                    </div>
+                </div>
+                <div class="sidebar__item">
+                    <div class="sidebar__color" data-color="lightgreen">
+                        <!-- <div class="inside_circle"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- <h1 class="inactive">kunal</h1> -->
-    <header>
-        <div class="container-head">
-            <div class="logo">
-                <h1 class="logo__name" id="phone__logo"><span class="logo__fname">ku</span><span class="logo__lname">nal</span></h1>
-                <h1 class="logo__name" id="dekstop__logo"><span class="logo__fname">kunal</span><span class="logo__lname">sangtiani</span></h1>
-                <div class="logo__box"></div>
+
+        <header>
+            <div class="container-head">
+                <div class="logo">
+                    <h1 class="logo__name" id="phone__logo"><span class="logo__fname">ku</span><span
+                            class="logo__lname">nal</span></h1>
+                    <h1 class="logo__name" id="dekstop__logo"><span class="logo__fname">kunal</span><span
+                            class="logo__lname">sangtiani</span></h1>
+                    <div class="logo__box"></div>
+                </div>
+
+                <nav class="nav">
+                    <ul class="nav-menu">
+                        <li class="nav-menu__item" id="about_">
+                            <a href="#home_section" class="nav-menu__link" id="about">About</a>
+                        </li>
+                        <li class="nav-menu__item" id="work_">
+                            <a href="#work_section" class="nav-menu__link" id="work">Work</a>
+                        </li>
+                        <li class="nav-menu__item" id="more_">
+                            <a href="#skills_section" class="nav-menu__link" id="more">More</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="button__settings">
+                    <i class="material-icons button__settings__icon">settings</i>
+                </div>
             </div>
+        </header>
 
-            <nav class="nav">
-                <ul class="nav-menu">
-                    <li class="nav-menu__item" id="about_">
-                        <a href="#home_section" class="nav-menu__link" id="about">About</a>
-                    </li>
-                    <li class="nav-menu__item" id="work_">
-                        <a href="#work_section" class="nav-menu__link" id="work">Work</a>
-                    </li>
-                    <li class="nav-menu__item" id="more_">
-                        <a href="#skills_section" class="nav-menu__link" id="more">More</a>
-                    </li>
-                </ul>
-            </nav>
+        <main>
+            <div class="img-container">
+                <section class="home" id="home_section">
+                    <div class="container-home">
+                        <div class="home__text">
+                            <h1 class="home__text__heading">Hi, I'm Kunal</h1>
+                            <h3 class="home__text__sub">Front-End Developer</h3>
+                            <p class="home__text__main">I can create high quality UI Designs and full stack web applications. </p>
 
-            <div class="button__settings">
-                <i class="material-icons button__settings__icon">settings</i>
+                        </div>
+                        <div class="home__img">
+                            <div class="home__img__i"></div>
+                        </div>
+                        <div class="home__down-icon">
+                            <i class="material-icons ic1">clear_all</i>
+                            <a href="#work_section" class="title ic2">Scroll down </a>
+                            <i class="material-icons ic3">arrow_downward</i>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="work" id="work_section">
+                    <div class="container-work">
+                        <h1 class="work__heading"><span class="makeitbold">Key</span> Projects</h1>
+                        <div class="work__projects">
+                            <div class="work__project" id="project1">
+                                <div class="work__project__img" ></div>
+                                <div class="work__project__text">
+                                    <h4 class="work__project__text__heading">Email app : Django, Html, Css, Javascript, Bootstrap</h4>
+                                    <p class="work__project__text__main">This project is a full-stack web-app based on django's Rest Framework. User can send, recieve and edit emails, create account, login,logout and whole data is saved with django's default sqlite database.</p>
+                                    <div class="work__project__buttons">
+                                        <a href="https://github.com/kunals131/Mail_New" class="work__project__button"><i class="far fa-eye"></i> Preview</a>
+                                        <a href="https://github.com/kunals131/Mail_New" class="work__project__button"><i class="fab fa-github"></i>
+                                            Source</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="work__project" id="project2">
+                                <div class="work__project__img"></div>
+                                <div class="work__project__text">
+                                    <h4 class="work__project__text__heading">Personal Portfolio : Html, CSS (SASS), Javascript</h4>
+                                    <p class="work__project__text__main">This project is my personal portfolio, High quality ui design without just SASS, and google fonts.
+                                                                        with functions like theme options,smoothscroll and css animations</p>
+                                    <div class="work__project__buttons">
+                                        <a href="https://upbeat-lamport-023b9f.netlify.app/" class="work__project__button"><i class="far fa-eye"></i> Preview</a>
+                                        <a href="https://github.com/kunals131/Personal-Portfolio" class="work__project__button"><i class="fab fa-github"></i>
+                                            Source</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="work__project" id="project3">
+                                <div class="work__project__img"></div>
+                                <div class="work__project__text">
+                                    <h4 class="work__project__text__heading">Web Scrapper : Python,Html,Css</h4>
+                                    <p class="work__project__text__main">Webscrapper is a upgrade website to craigslist, It uses Bs4, Beautiful Soup and djnago to search and show results in a beautiful UI
+                                       </p>
+                                    <div class="work__project__buttons">
+                                        <a href="#" class="work__project__button"><i class="far fa-eye"></i> Preview</a>
+                                        <a href="#" class="work__project__button"><i class="fab fa-github"></i>
+                                            Source</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </div>
-    </header>
-
-    <main>
-        <div class="img-container">
-            <section class="home" id="home_section">
-                <div class="container-home">
-                    <div class="home__text">
-                        <h1 class="home__text__heading">Hi, I'm Kunal</h1>
-                        <h3 class="home__text__sub">Front-end Developer</h3>
-                        <p class="home__text__main">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita,
-                            voluptatum?</p>
-
-                    </div>
-                    <div class="home__img">
-                        <div class="home__img__i"></div>
-                    </div>
-                    <div class="home__down-icon">
-                        <i class="material-icons ic1">clear_all</i>
-                        <a href="#work_section" class="title ic2">Scroll down </a>
-                        <i class="material-icons ic3">arrow_downward</i>
-                    </div>
+            <div class="Link_to_all_projects">
+                <h2 class="link_to">Link to <a href="#"> <i class="fab fa-artstation"></i> All Projects</a></h2>
+            </div>
+            <section class="skills" id="skills_section">
+                <div class="container-skills">
+                    <h1 class="skills__heading">SK<span class="makeitbold">ILLS</span></h1>
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <h4 class="skills__item__heading">Programming Languages : </h4>
+                            <p class="skills__item__main">C++, Python, Javascipt</p>
+                        </li>
+                        <li class="skills__item">
+                            <h4 class="skills__item__heading">Front-End Technologies: </h4>
+                            <p class="skills__item__main">Html, CSS, SASS, Javascipt, React </p>
+                        </li>
+                        <li class="skills__item">
+                            <h4 class="skills__item__heading">Back-End Technologies: </h4>
+                            <p class="skills__item__main">Django,Flask</p>
+                        </li>
+                        <li class="skills__item">
+                            <h4 class="skills__item__heading">Tools : </h4>
+                            <p class="skills__item__main">Bootstrap, Materialize-UI, Git/Github</p>
+                        </li>
+                        <li class="skills__item">
+                            <h4 class="skills__item__heading">Design Tools : </h4>
+                            <p class="skills__item__main">Adobe Photoshop, Illustrator, Indesign</p>
+                        </li>
+                    </ul>
                 </div>
             </section>
-
-            <section class="work" id="work_section">
-                <div class="container-work">
-                    <h1 class="work__heading"><span class="makeitbold">Key</span> Projects</h1>
-                    <div class="work__projects">
-                        <div class="work__project">
-                            <div class="work__project__img"></div>
-                            <div class="work__project__text">
-                                <h4 class="work__project__text__heading">Project-1</h4>
-                                <p class="work__project__text__main">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. Alias, nemo!</p>
-                                    <div class="work__project__buttons">
-                                        <a href="#" class="work__project__button"><i class="far fa-eye"></i> Preview</a>
-                                        <a href="#" class="work__project__button"><i class="fab fa-github"></i> Source</a>
-                                    </div>
-                            </div>
-                            
+            <section class="contact">
+                <div class="container-contact">
+                    <h2 class="contact__heading">Let's <span class="makeitbold contact__heading__p2">Connect</span></h2>
+                    <div class="contact__details">
+                        <div class="contact__detail">
+                            <h1><i class="fas fa-envelope-open contact__envelope"></i> : sangtianikunal@gmail.com</h1>
                         </div>
-                        <div class="work__project">
-                            <div class="work__project__img"></div>
-                            <div class="work__project__text">
-                                <h4 class="work__project__text__heading">Project-1</h4>
-                                <p class="work__project__text__main">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. Alias, nemo!</p>
-                                    <div class="work__project__buttons">
-                                        <a href="#" class="work__project__button"><i class="far fa-eye"></i> Preview</a>
-                                        <a href="#" class="work__project__button"><i class="fab fa-github"></i> Source</a>
-                                    </div>
-                            </div>
-                  
-                        </div>
-                        <div class="work__project">
-                            <div class="work__project__img"></div>
-                            <div class="work__project__text">
-                                <h4 class="work__project__text__heading">Project-1</h4>
-                                <p class="work__project__text__main">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                    elit. Alias, nemo!</p>
-                                    <div class="work__project__buttons">
-                                        <a href="#" class="work__project__button"><i class="far fa-eye"></i> Preview</a>
-                                        <a href="#" class="work__project__button"><i class="fab fa-github"></i> Source</a>
-                                    </div>
-                            </div>
-                   
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="Link_to_all_projects">
-            <h2 class="link_to">Link to <a href="#"> <i class="fab fa-artstation"></i> All Projects</a></h2>
-        </div>
-        <section class="skills" id="skills_section">
-            <div class="container-skills">
-                <h1 class="skills__heading">SK<span class="makeitbold">ILLS</span></h1>
-                <ul class="skills__list">
-                    <li class="skills__item">
-                        <h4 class="skills__item__heading">Programming Languages : </h4>
-                        <p class="skills__item__main">C++, Python, Javascipt</p>
-                    </li>
-                    <li class="skills__item">
-                        <h4 class="skills__item__heading">Front-End Technologies: </h4>
-                        <p class="skills__item__main">Html, CSS, SASS, Javascipt, React </p>
-                    </li>
-                    <li class="skills__item">
-                        <h4 class="skills__item__heading">Back-End Technologies: </h4>
-                        <p class="skills__item__main">Django,Flask</p>
-                    </li>
-                    <li class="skills__item">
-                        <h4 class="skills__item__heading">Tools : </h4>
-                        <p class="skills__item__main">Bootstrap, Materialize-UI, Git/Github</p>
-                    </li>
-                    <li class="skills__item">
-                        <h4 class="skills__item__heading">Design Tools : </h4>
-                        <p class="skills__item__main">Adobe Photoshop, Illustrator, Indesign</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="contact">
-            <div class="container-contact">
-                <h2 class="contact__heading">Let's <span class="makeitbold secondary-color">Connect</span></h2>
-                <div class="contact__details">
-                    <div class="contact__detail">
-                        <h1><i class="fas fa-envelope-open secondary-color"></i> : sangtianikunal@gmail.com</h1>
-                    </div>
-                    <!-- <div class="contact__detail">
+                        <!-- <div class="contact__detail">
                         <h1><i class="fas fa-location-arrow secondary-color"></i> : Indore, India</h1>
                     </div> -->
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="social-icons">
+            <section class="social-icons">
 
-            <div class="social-icons__container">
-                <div class="social-icons__item">
-                    <a href="#" class="social-icons__link"><i class="fab fa-github"></i></a>
+                <div class="social-icons__container">
+                    <div class="social-icons__item">
+                        <a href="https://github.com/kunals131" class="social-icons__link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="social-icons__item">
+                        <a href="https://www.linkedin.com/in/kunal-sangtiani-4373581bb" class="social-icons__link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="social-icons__item">
+                        <a href="https://www.instagram.com/kunalsangtiani1/?hl=en" class="social-icons__link"><i class="fab fa-instagram"></i></a>
+                    </div>
                 </div>
-                <div class="social-icons__item">
-                    <a href="#" class="social-icons__link"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div class="social-icons__item">
-                    <a href="#" class="social-icons__link"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="footer">
-            <div class="footer-container">
-                <h3 class="footer__text"><i>Made with <span class="secondary-color">❤</span> by <a href="#">@kunalsangtiani</a></i></h3>
-            </div>
-        </section>
-    </main>
+            <section class="footer">
+                <div class="footer-container">
+                    <h3 class="footer__text"><i>Made with <span class="secondary-color">❤</span> by <a
+                                href="https://www.instagram.com/kunalsangtiani1/?hl=en">@kunalsangtiani</a></i></h3>
+                </div>
+            </section>
+        </main>
+   
 
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
     <script src="js/app.js"></script>
 

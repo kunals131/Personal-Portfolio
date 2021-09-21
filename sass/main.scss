@@ -11,7 +11,7 @@
 @import 'responsive-md';
 @import 'responsive-lg';
 @import 'load';
-
+@import 'sidebar';
 
 header {
     width: 100vw;
@@ -100,5 +100,10 @@ header {
     margin: auto;
     padding: 0.8rem;
     
+}
+
+.sidebar-container {
+    width: 85%;
+    margin: auto;
 }
 

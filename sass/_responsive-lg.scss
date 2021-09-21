@@ -93,7 +93,7 @@
     //Work Section
 
     .work {
-        margin-top: 1rem;
+        margin-top: 0rem;
         &__heading {
            font-size: 1.6rem;
         }
@@ -101,9 +101,16 @@
             margin-top: 1.2rem;
             display: grid;
             grid-template-columns: 1fr 1fr;
+        
             &__text {
                 text-align: left;
+                &__main {
+                    text-align: left;
+                    width: 67%;
+                    margin: 0.8rem 0;
+                }
             }
+         
             &__buttons {
                 justify-content: left;
                 margin-top: 1.3rem;
@@ -121,6 +128,8 @@
     .Link_to_all_projects {
         max-width: 50%;
     }
+
+
     
 
 }

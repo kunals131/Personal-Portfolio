@@ -39,6 +39,12 @@
         list-style: none;
         &__item {
             padding: 0.2rem 0.5rem;
+            &:hover {
+                .nav-menu__link {
+                    color: white;
+                    // font-weight: 6;
+                };
+            }
         }
         &__link {
             padding: 0.4rem 0.3rem;
@@ -46,12 +52,9 @@
             font-size: 0.92rem;
             text-decoration: none;
             font-weight: 500;
-            transition: all 0.3s ease-in-out;
+            transition: all 0.1s ease-in-out;
             // @include trastion-ease($time : 0.5s);
-            &:hover {
-                color: $active-color;
-                font-weight: 600;
-            }
+ 
 
 
         }
@@ -61,7 +64,7 @@
 
 .button__settings {
     
-    // background-color: $secondary-color;
+    background-color: $secondary-color;
     height: 29px;
     width: 29px;
     

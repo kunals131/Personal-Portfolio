@@ -74,22 +74,22 @@ html {
   padding: 0.2rem 0.5rem;
 }
 
+.nav .nav-menu__item:hover .nav-menu__link {
+  color: white;
+}
+
 .nav .nav-menu__link {
   padding: 0.4rem 0.3rem;
   color: #777779;
   font-size: 0.92rem;
   text-decoration: none;
   font-weight: 500;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.nav .nav-menu__link:hover {
-  color: #f6f6f6;
-  font-weight: 600;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .button__settings {
+  background-color: #8739fa;
   height: 29px;
   width: 29px;
   text-align: center;
@@ -294,14 +294,18 @@ html {
 
 .work__project__text__heading {
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .work__project__text__main {
+  width: 99%;
+  margin: auto;
+  color: grey;
   line-height: 1.1;
-  font-size: 0.9rem;
+  text-align: center;
+  font-size: 0.8rem;
   margin-top: 0.4rem;
-  font-family: 'Roboto';
+  font-family: 'Poppins', sans-serif;
 }
 
 .work__project__buttons {
@@ -366,6 +370,18 @@ html {
   font-weight: 500;
 }
 
+#project3 .work__project__img {
+  background: url(../img/project3.jpg) center center/cover;
+}
+
+#project1 .work__project__img {
+  background: url(../img/project1.jpg) center center/cover;
+}
+
+#project2 .work__project__img {
+  background: url(../img/project2.jpg) center center/cover;
+}
+
 .skills {
   margin-top: 1.5rem;
 }
@@ -410,6 +426,10 @@ html {
   padding-bottom: 1rem;
 }
 
+.contact__heading__p2 {
+  color: #8739fa;
+}
+
 .contact__details {
   margin-top: 1.4rem;
   text-align: center;
@@ -449,6 +469,10 @@ html {
 .social-icons__link:hover {
   color: #8739fa;
   font-size: 2.03rem;
+}
+
+.contact__envelope {
+  color: #8739fa;
 }
 
 .footer {
@@ -596,7 +620,7 @@ html {
     margin-left: -1rem;
   }
   .work {
-    margin-top: 1rem;
+    margin-top: 0rem;
   }
   .work__heading {
     font-size: 1.6rem;
@@ -610,6 +634,11 @@ html {
   }
   .work__project__text {
     text-align: left;
+  }
+  .work__project__text__main {
+    text-align: left;
+    width: 67%;
+    margin: 0.8rem 0;
   }
   .work__project__buttons {
     -webkit-box-pack: left;
@@ -685,6 +714,94 @@ html {
   to {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+  }
+}
+
+.sidebar {
+  background-color: #f6f6f6;
+  color: black;
+  width: 50%;
+  height: 100vh;
+  position: fixed;
+  left: 14rem;
+  z-index: 200;
+  top: 0rem;
+  -webkit-transform: translateX(2000px);
+          transform: translateX(2000px);
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.sidebar__heading {
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+
+.sidebar__sub {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #777779;
+  margin-top: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar__items {
+  margin-top: 1.2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (0.1fr)[4];
+      grid-template-columns: repeat(4, 0.1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.sidebar__item {
+  border: none;
+  width: 25px;
+  border-radius: 100%;
+  height: 25px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1;
+      grid-template-columns: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  opacity: 0.4;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.sidebar__item:hover {
+  opacity: 1;
+}
+
+.sidebar__color {
+  background-color: red;
+  width: 20px;
+  border-radius: 100%;
+  height: 20px;
+}
+
+.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.selected {
+  border: 2px solid grey;
+  opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    width: 18%;
+    left: 72rem;
   }
 }
 
@@ -785,5 +902,10 @@ header {
   width: 85%;
   margin: auto;
   padding: 0.8rem;
+}
+
+.sidebar-container {
+  width: 85%;
+  margin: auto;
 }
 /*# sourceMappingURL=main.css.map */

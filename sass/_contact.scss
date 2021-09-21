@@ -6,6 +6,9 @@
         font-weight: 600;
         border-bottom: 1px solid lightgrey;
         padding-bottom: 1rem;
+        &__p2 {
+            color: $secondary-color;
+        }
     }
 
     &__details {
@@ -45,4 +48,7 @@
         }
     }
 
+}
+.contact__envelope {
+    color: $secondary-color;
 }
