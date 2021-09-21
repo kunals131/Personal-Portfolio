@@ -68,3 +68,34 @@
         
     }
 }
+
+.Link_to_all_projects {
+    max-width: 70% ;
+    text-align: center;
+
+    margin: auto;
+    margin-top: 1rem;
+    transition: all 1s ease-in-out;
+
+    &:hover {
+        background-color: $secondary-color;
+        .link_to {
+            color: white;
+            a {
+                color: white;
+            }
+        }
+    }
+
+
+    .link_to {
+        font-size: 1.1rem;
+        font-weight: 400;
+        border : 1px solid lightgrey;
+        padding: 0.4rem 0.7rem;
+        a {
+            color: black;
+            font-weight: 500;
+        }
+    }
+}

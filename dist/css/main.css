@@ -333,6 +333,39 @@ html {
   color: black;
 }
 
+.Link_to_all_projects {
+  max-width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.Link_to_all_projects:hover {
+  background-color: #8739fa;
+}
+
+.Link_to_all_projects:hover .link_to {
+  color: white;
+}
+
+.Link_to_all_projects:hover .link_to a {
+  color: white;
+}
+
+.Link_to_all_projects .link_to {
+  font-size: 1.1rem;
+  font-weight: 400;
+  border: 1px solid lightgrey;
+  padding: 0.4rem 0.7rem;
+}
+
+.Link_to_all_projects .link_to a {
+  color: black;
+  font-weight: 500;
+}
+
 .skills {
   margin-top: 1.5rem;
 }
@@ -577,6 +610,9 @@ html {
   .work__project__text {
     text-align: left;
   }
+  .Link_to_all_projects {
+    max-width: 50%;
+  }
 }
 
 .loader-container {
@@ -693,7 +729,7 @@ header {
 }
 
 .container-work {
-  padding-top: 1rem;
+  padding-top: 1.3rem;
   width: 85%;
   margin: auto;
 }
