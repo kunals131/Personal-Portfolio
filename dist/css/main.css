@@ -723,13 +723,13 @@ html {
   width: 50%;
   height: 100vh;
   position: fixed;
-  left: 14rem;
+  left: 18rem;
   z-index: 200;
   top: 0rem;
   -webkit-transform: translateX(2000px);
           transform: translateX(2000px);
-  -webkit-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .sidebar__heading {
