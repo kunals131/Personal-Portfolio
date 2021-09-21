@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 
 $(window).on("load",function(){
-    $(".loader-container").fadeOut(0);
+    $(".loader-container").fadeOut(6000);
 });
 
 
