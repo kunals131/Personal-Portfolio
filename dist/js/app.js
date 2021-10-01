@@ -103,13 +103,13 @@ document.addEventListener('DOMContentLoaded', ()=>{
     if (window.innerWidth>=deks_width) {
         // fname.innerHTML = 'kunal';
         // lname.innerHTML = 'sangtiani';
-        bg.style.background = "url('./img/300ppi/dekstop2.png') center center/cover";
+        bg.style.background = "url('./img/300ppi/dekstop2.svg') center center/cover";
         changeText('dekstop');
     }
     else {
         // fname.innerHTML = 'ku';
         // lname.innerHTML = 'nal';
-        bg.style.background = "url('./img/300ppi/phone2.png') center center/cover";
+        bg.style.background = "url('./img/300ppi/phone2.svg') center center/cover";
         changeText('phone');
 
     }
