@@ -98,18 +98,22 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const fname = document.querySelector('.logo__fname');
     const lname = document.querySelector('.logo__lname');
     const bg = document.querySelector('.img-container');
+    const fbg = document.querySelector('.footer-img');
 
     const deks_width = 1024;
     if (window.innerWidth>=deks_width) {
         // fname.innerHTML = 'kunal';
         // lname.innerHTML = 'sangtiani';
         bg.style.background = "url('./img/300ppi/dekstop2.svg') center center/cover";
+        fbg.style.background = "url('./img/300ppi/footer.svg') center center/cover";
+
         changeText('dekstop');
     }
     else {
         // fname.innerHTML = 'ku';
         // lname.innerHTML = 'nal';
         bg.style.background = "url('./img/300ppi/phone2.svg') center center/cover";
+        fbg.style.background = "url('./img/300ppi/phone-footer.svg') center center/cover";
         changeText('phone');
 
     }
@@ -117,7 +121,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 
 $(window).on("load",function(){
-    $(".loader-container").fadeOut(10000);
+    $(".loader-container").fadeOut(5000);
 });
 
 
