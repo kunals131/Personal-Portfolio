@@ -1,17 +1,1 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="5996.000000pt" height="3750.000000pt" viewBox="0 0 5996.000000 3750.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,3750.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M0 23739 c0 -13101 1 -13761 17 -13756 60 16 3431 1226 4518 1620
-5246 1905 8948 3362 12457 4906 2327 1023 4620 2124 6663 3199 1811 952 3063
-1666 5225 2981 1207 733 1827 1103 2415 1438 2090 1193 3750 1919 5387 2357
-2125 568 4107 612 5866 131 702 -192 1348 -466 1967 -833 1367 -812 2445
--1988 3039 -3315 241 -539 375 -996 482 -1644 l5 -33 5959 0 5960 0 0 8355 0
-8355 -29980 0 -29980 0 0 -13761z"/>
-</g>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1439 900"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#f6f6f6;}.cls-4{fill:#151418;}.cls-5{fill:#242329;}.cls-6{fill:#46454a;}</style><clipPath id="clip-path"><rect class="cls-1" x="-1" width="1440" height="900"/></clipPath></defs><g class="cls-2"><rect class="cls-3" x="-1" width="1441" height="900"/><path class="cls-3" d="M1439,364.5V900H2.73V615.9c209.48-72.48,420.18-145.77,614.75-251.4Z"/><path class="cls-4" d="M1440,0V400.93H1153c-9.2-66.82-65-120.27-128-138.68s-131.28-6.56-192.25,18.15S716.25,342,659.49,375.74q-21.72,12.9-43.72,25.19C420.56,510.16,209.17,586-1,660.9V0Z"/><rect class="cls-5" x="148.81" y="-88.6" width="412.85" height="426.92" rx="98.39" transform="translate(241.99 -234.25) rotate(53.13)"/><rect class="cls-5" x="791.73" y="10.57" width="67.01" height="67.3" rx="15.7" transform="matrix(0.6, 0.8, -0.8, 0.6, 365.51, -642.52)"/><rect class="cls-6" x="1072.44" y="33.59" width="33.2" height="33.35" rx="7.78" transform="translate(475.87 -851.16) rotate(53.13)"/><rect class="cls-6" x="635.79" y="40.49" width="22.65" height="22.75" rx="5.31" transform="translate(300.36 -496.96) rotate(53.13)"/><rect class="cls-6" x="674.79" y="195.49" width="22.65" height="22.75" rx="5.31" transform="translate(439.96 -466.16) rotate(53.13)"/><rect class="cls-5" x="853.31" y="180.78" width="40.52" height="40.23" rx="9.44" transform="matrix(0.6, 0.8, -0.8, 0.6, 510.18, -618.51)"/><rect class="cls-5" x="1001.06" y="116.58" width="53.01" height="52.63" rx="12.35" transform="matrix(0.6, 0.8, -0.8, 0.6, 525.39, -764.92)"/><path class="cls-1" d="M2.73,615.9l-4.15,1.44"/><path class="cls-1" d="M1152.91,370.56s0,0,0-.06c-9.17-64.62-64.82-116.31-127.62-134.11S894.43,230,833.66,253.94s-116,59.6-172.61,92.2q-21.64,12.47-43.57,24.36"/></g></svg>
